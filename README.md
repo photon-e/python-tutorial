@@ -210,7 +210,7 @@ Let's start with a simple program to ensure everything is set up correctly.
 Write the following code:  
 python  
 Copy code  
-print("Hello, world!")
+`print("Hello, world!")`
 
 3.    
     
@@ -233,11 +233,11 @@ Copy code
 
 # Variables
 
-name = "Alice"
+`name = "Alice"`
 
-age = 25
+`age = 25`
 
-height = 5.5
+`height = 5.5`
 
   
 
@@ -266,21 +266,21 @@ Copy code
 
 # Numeric Types
 
-x = 10 # int
+`x = 10 # int`
 
-y = 3.14 # float
+`y = 3.14 # float`
 
   
 
 # String Type
 
-greeting = "Hello, world!"
+`greeting = "Hello, world!"`
 
   
 
 # Boolean Type
 
-is_python_fun = True
+`is_python_fun = True`
 
   
 
@@ -306,11 +306,11 @@ Copy code
 
 # Output
 
-print("Hello, world!") # Output: Hello, world!
-
-print("My name is", name) # Output: My name is Alice
-
-print("I am", age, "years old") # Output: I am 25 years old
+    print("Hello, world!") # Output: Hello, world!
+    
+    print("My name is", name) # Output: My name is Alice
+    
+    print("I am", age, "years old") # Output: I am 25 years old
 
   
 
@@ -324,9 +324,9 @@ Copy code
 
 # Input
 
-user_name = input("Enter your name: ")
-
-print("Hello,", user_name)
+    user_name = input("Enter your name: ")
+    
+    print("Hello,", user_name)
 
   
 
@@ -349,29 +349,29 @@ Copy code
 
 # Arithmetic Operations
 
-a = 10
-
-b = 3
-
-  
-
-sum = a + b
-
-difference = a - b
-
-product = a * b
-
-quotient = a / b
+    a = 10
+    
+    b = 3
 
   
 
-print("Sum:", sum) # Output: Sum: 13
-
-print("Difference:", difference) # Output: Difference: 7
-
-print("Product:", product) # Output: Product: 30
-
-print("Quotient:", quotient) # Output: Quotient: 3.3333333333333335
+    sum = a + b
+    
+    difference = a - b
+    
+    product = a * b
+    
+    quotient = a / b
+    
+      
+    
+    print("Sum:", sum) # Output: Sum: 13
+    
+    print("Difference:", difference) # Output: Difference: 7
+    
+    print("Product:", product) # Output: Product: 30
+    
+    print("Quotient:", quotient) # Output: Quotient: 3.3333333333333335
 
   
 
@@ -404,55 +404,55 @@ Copy code
 
 # Getting user input
 
-num1 = float(input("Enter first number: "))
-
-num2 = float(input("Enter second number: "))
+    num1 = float(input("Enter first number: "))
+    
+    num2 = float(input("Enter second number: "))
 
   
 
 # Getting the operation choice from the user
 
-print("Select operation: \n1. Add\n2. Subtract\n3. Multiply\n4. Divide")
-
-choice = input("Enter choice(1/2/3/4): ")
+    print("Select operation: \n1. Add\n2. Subtract\n3. Multiply\n4. Divide")
+    
+    choice = input("Enter choice(1/2/3/4): ")
 
   
 
 # Performing the operation
 
-if choice == '1':
-
-result = num1 + num2
-
-print(f"The result of {num1} + {num2} is {result}")
-
-elif choice == '2':
-
-result = num1 - num2
-
-print(f"The result of {num1} - {num2} is {result}")
-
-elif choice == '3':
-
-result = num1 * num2
-
-print(f"The result of {num1} * {num2} is {result}")
-
-elif choice == '4':
-
-if num2 != 0:
-
-result = num1 / num2
-
-print(f"The result of {num1} / {num2} is {result}")
-
-else:
-
-print("Error! Division by zero.")
-
-else:
-
-print("Invalid input")
+    if choice == '1':
+    
+    result = num1 + num2
+    
+    print(f"The result of {num1} + {num2} is {result}")
+    
+    elif choice == '2':
+    
+    result = num1 - num2
+    
+    print(f"The result of {num1} - {num2} is {result}")
+    
+    elif choice == '3':
+    
+    result = num1 * num2
+    
+    print(f"The result of {num1} * {num2} is {result}")
+    
+    elif choice == '4':
+    
+    if num2 != 0:
+    
+    result = num1 / num2
+    
+    print(f"The result of {num1} / {num2} is {result}")
+    
+    else:
+    
+    print("Error! Division by zero.")
+    
+    else:
+    
+    print("Invalid input")
 
   
 
@@ -530,13 +530,13 @@ python
 
 Copy code
 
-temperature = 25
-
-  
-
-if temperature > 20:
-
-print("Wear shorts!") # Output: Wear shorts!
+    temperature = 25
+    
+      
+    
+    if temperature > 20:
+    
+    print("Wear shorts!") # Output: Wear shorts!
 
   
 
@@ -554,25 +554,25 @@ python
 
 Copy code
 
-score = 85
-
-  
-
-if score >= 90:
-
-print("Grade: A")
-
-elif score >= 80:
-
-print("Grade: B") # Output: Grade: B
-
-elif score >= 70:
-
-print("Grade: C")
-
-else:
-
-print("Grade: F")
+    score = 85
+    
+      
+    
+    if score >= 90:
+    
+    print("Grade: A")
+    
+    elif score >= 80:
+    
+    print("Grade: B") # Output: Grade: B
+    
+    elif score >= 70:
+    
+    print("Grade: C")
+    
+    else:
+    
+    print("Grade: F")
 
   
 
@@ -588,21 +588,21 @@ python
 
 Copy code
 
-number = -5
-
-  
-
-if number > 0:
-
-print("The number is positive.")
-
-elif number == 0:
-
-print("The number is zero.")
-
-else:
-
-print("The number is negative.") # Output: The number is negative.
+    number = -5
+    
+      
+    
+    if number > 0:
+    
+    print("The number is positive.")
+    
+    elif number == 0:
+    
+    print("The number is zero.")
+    
+    else:
+    
+    print("The number is negative.") # Output: The number is negative.
 
   
 
@@ -620,25 +620,25 @@ python
 
 Copy code
 
-age = 19
-
-  
-
-if age >= 18:
-
-print("You are eligible for a driving license.")
-
-if age >= 21:
-
-print("You are also eligible to rent a car.")
-
-else:
-
-print("But you are not eligible to rent a car.") # Output: You are eligible for a driving license. \n But you are not eligible to rent a car.
-
-else:
-
-print("You are not eligible for a driving license.")
+    age = 19
+    
+      
+    
+    if age >= 18:
+    
+    print("You are eligible for a driving license.")
+    
+    if age >= 21:
+    
+    print("You are also eligible to rent a car.")
+    
+    else:
+    
+    print("But you are not eligible to rent a car.") # Output: You are eligible for a driving license. \n But you are not eligible to rent a car.
+    
+    else:
+    
+    print("You are not eligible for a driving license.")
 
   
 
@@ -662,15 +662,15 @@ python
 
 Copy code
 
-count = 1
-
-  
-
-while count <= 5:
-
-print(f"Sheep {count}...") # Output: Sheep 1... \n Sheep 2... \n Sheep 3... \n Sheep 4... \n Sheep 5...
-
-count += 1 # Increment count by 1
+    count = 1
+    
+      
+    
+    while count <= 5:
+    
+    print(f"Sheep {count}...") # Output: Sheep 1... \n Sheep 2... \n Sheep 3... \n Sheep 4... \n Sheep 5...
+    
+    count += 1 # Increment count by 1
 
   
 
@@ -688,13 +688,13 @@ python
 
 Copy code
 
-fruits = ["apple", "banana", "cherry"]
-
-  
-
-for fruit in fruits:
-
-print(f"I love {fruit}!") # Output: I love apple! \n I love banana! \n I love cherry!
+    fruits = ["apple", "banana", "cherry"]
+    
+      
+    
+    for fruit in fruits:
+    
+    print(f"I love {fruit}!") # Output: I love apple! \n I love banana! \n I love cherry!
 
   
 
@@ -712,17 +712,17 @@ Copy code
 
 # Using range in a for loop
 
-for i in range(5):
-
-print(i) # Output: 0 \n 1 \n 2 \n 3 \n 4
+    for i in range(5):
+    
+    print(i) # Output: 0 \n 1 \n 2 \n 3 \n 4
 
   
 
 # Specifying start, stop, and step
 
-for i in range(1, 10, 2):
-
-print(i) # Output: 1 \n 3 \n 5 \n 7 \n 9
+    for i in range(1, 10, 2):
+    
+    print(i) # Output: 1 \n 3 \n 5 \n 7 \n 9
 
   
 
@@ -743,13 +743,13 @@ python
 
 Copy code
 
-for i in range(10):
-
-if i == 5:
-
-break
-
-print(i) # Output: 0 \n 1 \n 2 \n 3 \n 4
+    for i in range(10):
+    
+    if i == 5:
+    
+    break
+    
+    print(i) # Output: 0 \n 1 \n 2 \n 3 \n 4
 
   
 
@@ -761,13 +761,13 @@ python
 
 Copy code
 
-for i in range(10):
-
-if i % 2 == 0:
-
-continue
-
-print(i) # Output: 1 \n 3 \n 5 \n 7 \n 9
+    for i in range(10):
+    
+    if i % 2 == 0:
+    
+    continue
+    
+    print(i) # Output: 1 \n 3 \n 5 \n 7 \n 9
 
   
 
@@ -808,41 +808,41 @@ import random
 
 # Generate a random number between 1 and 100
 
-number_to_guess = random.randint(1, 100)
-
-attempts = 0
-
-  
-
-print("Welcome to the Number Guessing Game!")
-
-print("Guess a number between 1 and 100.")
+    number_to_guess = random.randint(1, 100)
+    
+    attempts = 0
+    
+      
+    
+    print("Welcome to the Number Guessing Game!")
+    
+    print("Guess a number between 1 and 100.")
 
   
 
 # Game loop
 
-while True:
-
-user_guess = int(input("Enter your guess: "))
-
-attempts += 1
-
-  
-
-if user_guess < number_to_guess:
-
-print("Too low! Try again.")
-
-elif user_guess > number_to_guess:
-
-print("Too high! Try again.")
-
-else:
-
-print(f"Congratulations! You've guessed the number in {attempts} attempts.")
-
-break
+    while True:
+    
+    user_guess = int(input("Enter your guess: "))
+    
+    attempts += 1
+    
+      
+    
+    if user_guess < number_to_guess:
+    
+    print("Too low! Try again.")
+    
+    elif user_guess > number_to_guess:
+    
+    print("Too high! Try again.")
+    
+    else:
+    
+    print(f"Congratulations! You've guessed the number in {attempts} attempts.")
+    
+    break
 
   
 
@@ -894,23 +894,23 @@ python
 
 Copy code
 
-balance = 500 # User's account balance
-
-withdraw_amount = 100 # Amount user wants to withdraw
-
-  
-
-if withdraw_amount <= balance:
-
-balance -= withdraw_amount
-
-print("Withdrawal successful!")
-
-print(f"Remaining balance: ${balance}")
-
-else:
-
-print("Insufficient funds!")
+    balance = 500 # User's account balance
+    
+    withdraw_amount = 100 # Amount user wants to withdraw
+    
+      
+    
+    if withdraw_amount <= balance:
+    
+    balance -= withdraw_amount
+    
+    print("Withdrawal successful!")
+    
+    print(f"Remaining balance: ${balance}")
+    
+    else:
+    
+    print("Insufficient funds!")
 
   
 
@@ -924,21 +924,21 @@ python
 
 Copy code
 
-total_price = 120 # Total price of items in the cart
-
-  
-
-if total_price > 100:
-
-discount = total_price * 0.1 # 10% discount
-
-total_price -= discount
-
-print(f"Discount applied! Your new total is: ${total_price}")
-
-else:
-
-print(f"Your total is: ${total_price}")
+    total_price = 120 # Total price of items in the cart
+    
+      
+    
+    if total_price > 100:
+    
+    discount = total_price * 0.1 # 10% discount
+    
+    total_price -= discount
+    
+    print(f"Discount applied! Your new total is: ${total_price}")
+    
+    else:
+    
+    print(f"Your total is: ${total_price}")
 
   
 
@@ -952,17 +952,17 @@ python
 
 Copy code
 
-age = 20 # Person's age
-
-  
-
-if age >= 18:
-
-print("You are eligible to vote.")
-
-else:
-
-print("You are not eligible to vote.")
+    age = 20 # Person's age
+    
+      
+    
+    if age >= 18:
+    
+    print("You are eligible to vote.")
+    
+    else:
+    
+    print("You are not eligible to vote.")
 
   
 
@@ -982,17 +982,17 @@ python
 
 Copy code
 
-recipients = ["alice@example.com", "bob@example.com", "charlie@example.com"]
-
-  
-
-for recipient in recipients:
-
-print(f"Sending email to {recipient}...")
+    recipients = ["alice@example.com", "bob@example.com", "charlie@example.com"]
+    
+      
+    
+    for recipient in recipients:
+    
+    print(f"Sending email to {recipient}...")
 
 # Code to send email
 
-print(f"Email sent to {recipient}")
+    print(f"Email sent to {recipient}")
 
   
 
@@ -1006,17 +1006,17 @@ python
 
 Copy code
 
-sensor_data = [22, 24, 19, 30, 28, 35, 18]
-
-  
-
-for temperature in sensor_data:
-
-print(f"Current temperature: {temperature}°C")
-
-if temperature > 30:
-
-print("Alert! Temperature too high!")
+    sensor_data = [22, 24, 19, 30, 28, 35, 18]
+    
+      
+    
+    for temperature in sensor_data:
+    
+    print(f"Current temperature: {temperature}°C")
+    
+    if temperature > 30:
+    
+    print("Alert! Temperature too high!")
 
   
 
@@ -1030,21 +1030,21 @@ python
 
 Copy code
 
-scores = [88, 76, 92, 85, 69]
-
-  
-
-total_score = 0
-
-for score in scores:
-
-total_score += score
-
-  
-
-average_score = total_score / len(scores)
-
-print(f"The average score is: {average_score}")
+    scores = [88, 76, 92, 85, 69]
+    
+      
+    
+    total_score = 0
+    
+    for score in scores:
+    
+    total_score += score
+    
+      
+    
+    average_score = total_score / len(scores)
+    
+    print(f"The average score is: {average_score}")
 
   
 
@@ -1062,27 +1062,27 @@ python
 
 Copy code
 
-tasks = []
-
-  
-
-while True:
-
-task = input("Enter a new task (or type 'done' to finish): ")
-
-if task.lower() == 'done':
-
-break
-
-tasks.append(task)
-
-  
-
-print("Your tasks are:")
-
-for task in tasks:
-
-print(f"- {task}")
+    tasks = []
+    
+      
+    
+    while True:
+    
+    task = input("Enter a new task (or type 'done' to finish): ")
+    
+    if task.lower() == 'done':
+    
+    break
+    
+    tasks.append(task)
+    
+      
+    
+    print("Your tasks are:")
+    
+    for task in tasks:
+    
+    print(f"- {task}")
 
   
 
@@ -1094,25 +1094,25 @@ python
 
 Copy code
 
-completed_tasks = []
-
-  
-
-for task in tasks:
-
-mark_done = input(f"Did you complete the task '{task}'? (yes/no): ")
-
-if mark_done.lower() == 'yes':
-
-completed_tasks.append(task)
-
-  
-
-print("Completed tasks:")
-
-for task in completed_tasks:
-
-print(f"- {task}")
+    completed_tasks = []
+    
+      
+    
+    for task in tasks:
+    
+    mark_done = input(f"Did you complete the task '{task}'? (yes/no): ")
+    
+    if mark_done.lower() == 'yes':
+    
+    completed_tasks.append(task)
+    
+      
+    
+    print("Completed tasks:")
+    
+    for task in completed_tasks:
+    
+    print(f"- {task}")
 
   
 
@@ -1163,53 +1163,53 @@ python
 
 Copy code
 
-import random
-
-  
-
-choices = ["rock", "paper", "scissors"]
-
-  
-
-while True:
-
-user_choice = input("Enter rock, paper, or scissors (or 'quit' to stop): ").lower()
-
-if user_choice == 'quit':
-
-break
-
-  
-
-if user_choice not in choices:
-
-print("Invalid choice. Please try again.")
-
-continue
-
-  
-
-computer_choice = random.choice(choices)
-
-print(f"Computer chose: {computer_choice}")
-
-  
-
-if user_choice == computer_choice:
-
-print("It's a tie!")
-
-elif (user_choice == "rock" and computer_choice == "scissors") or \
-
-(user_choice == "paper" and computer_choice == "rock") or \
-
-(user_choice == "scissors" and computer_choice == "paper"):
-
-print("You win!")
-
-else:
-
-print("You lose!")
+    import random
+    
+      
+    
+    choices = ["rock", "paper", "scissors"]
+    
+      
+    
+    while True:
+    
+    user_choice = input("Enter rock, paper, or scissors (or 'quit' to stop): ").lower()
+    
+    if user_choice == 'quit':
+    
+    break
+    
+      
+    
+    if user_choice not in choices:
+    
+    print("Invalid choice. Please try again.")
+    
+    continue
+    
+      
+    
+    computer_choice = random.choice(choices)
+    
+    print(f"Computer chose: {computer_choice}")
+    
+      
+    
+    if user_choice == computer_choice:
+    
+    print("It's a tie!")
+    
+    elif (user_choice == "rock" and computer_choice == "scissors") or \
+    
+    (user_choice == "paper" and computer_choice == "rock") or \
+    
+    (user_choice == "scissors" and computer_choice == "paper"):
+    
+    print("You win!")
+    
+    else:
+    
+    print("You lose!")
 
   
 
@@ -1223,89 +1223,89 @@ python
 
 Copy code
 
-def add(x, y):
-
-return x + y
-
-  
-
-def subtract(x, y):
-
-return x - y
-
-  
-
-def multiply(x, y):
-
-return x * y
-
-  
-
-def divide(x, y):
-
-if y != 0:
-
-return x / y
-
-else:
-
-return "Error! Division by zero."
-
-  
-
-while True:
-
-print("\nSelect operation:")
-
-print("1. Add")
-
-print("2. Subtract")
-
-print("3. Multiply")
-
-print("4. Divide")
-
-print("5. Quit")
-
-  
-
-choice = input("Enter choice(1/2/3/4/5): ")
-
-  
-
-if choice == '5':
-
-break
-
-  
-
-if choice in ['1', '2', '3', '4']:
-
-num1 = float(input("Enter first number: "))
-
-num2 = float(input("Enter second number: "))
-
-  
-
-if choice == '1':
-
-print(f"The result is: {add(num1, num2)}")
-
-elif choice == '2':
-
-print(f"The result is: {subtract(num1, num2)}")
-
-elif choice == '3':
-
-print(f"The result is: {multiply(num1, num2)}")
-
-elif choice == '4':
-
-print(f"The result is: {divide(num1, num2)}")
-
-else:
-
-print("Invalid input")
+    def add(x, y):
+    
+    return x + y
+    
+      
+    
+    def subtract(x, y):
+    
+    return x - y
+    
+      
+    
+    def multiply(x, y):
+    
+    return x * y
+    
+      
+    
+    def divide(x, y):
+    
+    if y != 0:
+    
+    return x / y
+    
+    else:
+    
+    return "Error! Division by zero."
+    
+      
+    
+    while True:
+    
+    print("\nSelect operation:")
+    
+    print("1. Add")
+    
+    print("2. Subtract")
+    
+    print("3. Multiply")
+    
+    print("4. Divide")
+    
+    print("5. Quit")
+    
+      
+    
+    choice = input("Enter choice(1/2/3/4/5): ")
+    
+      
+    
+    if choice == '5':
+    
+    break
+    
+      
+    
+    if choice in ['1', '2', '3', '4']:
+    
+    num1 = float(input("Enter first number: "))
+    
+    num2 = float(input("Enter second number: "))
+    
+      
+    
+    if choice == '1':
+    
+    print(f"The result is: {add(num1, num2)}")
+    
+    elif choice == '2':
+    
+    print(f"The result is: {subtract(num1, num2)}")
+    
+    elif choice == '3':
+    
+    print(f"The result is: {multiply(num1, num2)}")
+    
+    elif choice == '4':
+    
+    print(f"The result is: {divide(num1, num2)}")
+    
+    else:
+    
+    print("Invalid input")
 
   
 
@@ -1319,85 +1319,85 @@ python
 
 Copy code
 
-contacts = {}
-
-  
-
-def add_contact(name, phone):
-
-contacts[name] = phone
-
-  
-
-def view_contacts():
-
-if contacts:
-
-for name, phone in contacts.items():
-
-print(f"Name: {name}, Phone: {phone}")
-
-else:
-
-print("No contacts found.")
-
-  
-
-def search_contact(name):
-
-if name in contacts:
-
-print(f"Found: {name} - {contacts[name]}")
-
-else:
-
-print(f"Contact {name} not found.")
-
-  
-
-while True:
-
-print("\nContact Book Menu")
-
-print("1. Add Contact")
-
-print("2. View Contacts")
-
-print("3. Search Contact")
-
-print("4. Quit")
-
-choice = input("Choose an option: ")
-
-  
-
-if choice == '4':
-
-break
-
-elif choice == '1':
-
-name = input("Enter name: ")
-
-phone = input("Enter phone number: ")
-
-add_contact(name, phone)
-
-print("Contact added successfully.")
-
-elif choice == '2':
-
-view_contacts()
-
-elif choice == '3':
-
-name = input("Enter name to search: ")
-
-search_contact(name)
-
-else:
-
-print("Invalid choice. Please try again.")
+    contacts = {}
+    
+      
+    
+    def add_contact(name, phone):
+    
+    contacts[name] = phone
+    
+      
+    
+    def view_contacts():
+    
+    if contacts:
+    
+    for name, phone in contacts.items():
+    
+    print(f"Name: {name}, Phone: {phone}")
+    
+    else:
+    
+    print("No contacts found.")
+    
+      
+    
+    def search_contact(name):
+    
+    if name in contacts:
+    
+    print(f"Found: {name} - {contacts[name]}")
+    
+    else:
+    
+    print(f"Contact {name} not found.")
+    
+      
+    
+    while True:
+    
+    print("\nContact Book Menu")
+    
+    print("1. Add Contact")
+    
+    print("2. View Contacts")
+    
+    print("3. Search Contact")
+    
+    print("4. Quit")
+    
+    choice = input("Choose an option: ")
+    
+      
+    
+    if choice == '4':
+    
+    break
+    
+    elif choice == '1':
+    
+    name = input("Enter name: ")
+    
+    phone = input("Enter phone number: ")
+    
+    add_contact(name, phone)
+    
+    print("Contact added successfully.")
+    
+    elif choice == '2':
+    
+    view_contacts()
+    
+    elif choice == '3':
+    
+    name = input("Enter name to search: ")
+    
+    search_contact(name)
+    
+    else:
+    
+    print("Invalid choice. Please try again.")
 
   
 
@@ -1411,69 +1411,69 @@ python
 
 Copy code
 
-students = {}
-
-  
-
-def add_student(name, grades):
-
-students[name] = grades
-
-  
-
-def view_students():
-
-if students:
-
-for name, grades in students.items():
-
-average = sum(grades) / len(grades)
-
-status = "Pass" if average >= 60 else "Fail"
-
-print(f"Name: {name}, Grades: {grades}, Average: {average:.2f}, Status: {status}")
-
-else:
-
-print("No students found.")
-
-  
-
-while True:
-
-print("\nStudent Grade Management Menu")
-
-print("1. Add Student")
-
-print("2. View Students")
-
-print("3. Quit")
-
-choice = input("Choose an option: ")
-
-  
-
-if choice == '3':
-
-break
-
-elif choice == '1':
-
-name = input("Enter student name: ")
-
-grades = list(map(int, input("Enter grades separated by spaces: ").split()))
-
-add_student(name, grades)
-
-print("Student added successfully.")
-
-elif choice == '2':
-
-view_students()
-
-else:
-
-print("Invalid choice. Please try again.")
+    students = {}
+    
+      
+    
+    def add_student(name, grades):
+    
+    students[name] = grades
+    
+      
+    
+    def view_students():
+    
+    if students:
+    
+    for name, grades in students.items():
+    
+    average = sum(grades) / len(grades)
+    
+    status = "Pass" if average >= 60 else "Fail"
+    
+    print(f"Name: {name}, Grades: {grades}, Average: {average:.2f}, Status: {status}")
+    
+    else:
+    
+    print("No students found.")
+    
+      
+    
+    while True:
+    
+    print("\nStudent Grade Management Menu")
+    
+    print("1. Add Student")
+    
+    print("2. View Students")
+    
+    print("3. Quit")
+    
+    choice = input("Choose an option: ")
+    
+      
+    
+    if choice == '3':
+    
+    break
+    
+    elif choice == '1':
+    
+    name = input("Enter student name: ")
+    
+    grades = list(map(int, input("Enter grades separated by spaces: ").split()))
+    
+    add_student(name, grades)
+    
+    print("Student added successfully.")
+    
+    elif choice == '2':
+    
+    view_students()
+    
+    else:
+    
+    print("Invalid choice. Please try again.")
 
   
 
@@ -1487,95 +1487,95 @@ python
 
 Copy code
 
-inventory = {}
-
-  
-
-def add_product(name, quantity):
-
-if name in inventory:
-
-inventory[name] += quantity
-
-else:
-
-inventory[name] = quantity
-
-  
-
-def view_inventory():
-
-if inventory:
-
-for name, quantity in inventory.items():
-
-print(f"Product: {name}, Quantity: {quantity}")
-
-else:
-
-print("No products in inventory.")
-
-  
-
-def update_product(name, quantity):
-
-if name in inventory:
-
-inventory[name] = quantity
-
-print(f"Updated {name} to {quantity} units.")
-
-else:
-
-print(f"Product {name} not found in inventory.")
-
-  
-
-while True:
-
-print("\nInventory Management Menu")
-
-print("1. Add Product")
-
-print("2. View Inventory")
-
-print("3. Update Product Quantity")
-
-print("4. Quit")
-
-choice = input("Choose an option: ")
-
-  
-
-if choice == '4':
-
-break
-
-elif choice == '1':
-
-name = input("Enter product name: ")
-
-quantity = int(input("Enter quantity: "))
-
-add_product(name, quantity)
-
-print("Product added successfully.")
-
-elif choice == '2':
-
-view_inventory()
-
-elif choice == '3':
-
-name = input("Enter product name: ")
-
-quantity = int(input("Enter new quantity: "))
-
-update_product(name, quantity)
-
-else:
-
-print("Invalid choice. Please try again.")
+    inventory = {}
+    
+      
+    
+    def add_product(name, quantity):
+    
+    if name in inventory:
+    
+    inventory[name] += quantity
+    
+    else:
+    
+    inventory[name] = quantity
+    
+      
+    
+    def view_inventory():
+    
+    if inventory:
+    
+    for name, quantity in inventory.items():
+    
+    print(f"Product: {name}, Quantity: {quantity}")
+    
+    else:
+    
+    print("No products in inventory.")
+    
+      
+    
+    def update_product(name, quantity):
+    
+    if name in inventory:
+    
+    inventory[name] = quantity
+    
+    print(f"Updated {name} to {quantity} units.")
+    
+    else:
+    
+    print(f"Product {name} not found in inventory.")
+    
+      
+    
+    while True:
+    
+    print("\nInventory Management Menu")
+    
+    print("1. Add Product")
+    
+    print("2. View Inventory")
+    
+    print("3. Update Product Quantity")
+    
+    print("4. Quit")
+    
+    choice = input("Choose an option: ")
+    
+      
+    
+    if choice == '4':
+    
+    break
+    
+    elif choice == '1':
+    
+    name = input("Enter product name: ")
+    
+    quantity = int(input("Enter quantity: "))
+    
+    add_product(name, quantity)
+    
+    print("Product added successfully.")
+    
+    elif choice == '2':
+    
+    view_inventory()
+    
+    elif choice == '3':
+    
+    name = input("Enter product name: ")
+    
+    quantity = int(input("Enter new quantity: "))
+    
+    update_product(name, quantity)
+    
+    else:
+    
+    print("Invalid choice. Please try again.")
 
   
 
@@ -1647,13 +1647,13 @@ python
 
 Copy code
 
-def greet():
-
-print("Hello, world!")
-
-  
-
-greet() # Output: Hello, world!
+    def greet():
+    
+    print("Hello, world!")
+    
+      
+    
+    greet() # Output: Hello, world!
 
   
 
@@ -1669,15 +1669,15 @@ python
 
 Copy code
 
-def greet(name):
-
-print(f"Hello, {name}!")
-
-  
-
-greet("Alice") # Output: Hello, Alice!
-
-greet("Bob") # Output: Hello, Bob!
+    def greet(name):
+    
+    print(f"Hello, {name}!")
+    
+      
+    
+    greet("Alice") # Output: Hello, Alice!
+    
+    greet("Bob") # Output: Hello, Bob!
 
   
 
@@ -1693,15 +1693,15 @@ python
 
 Copy code
 
-def greet(name="world"):
-
-print(f"Hello, {name}!")
-
-  
-
-greet() # Output: Hello, world!
-
-greet("Alice") # Output: Hello, Alice!
+    def greet(name="world"):
+    
+    print(f"Hello, {name}!")
+    
+      
+    
+    greet() # Output: Hello, world!
+    
+    greet("Alice") # Output: Hello, Alice!
 
   
 
@@ -1717,15 +1717,15 @@ python
 
 Copy code
 
-def add(a, b):
-
-return a + b
-
-  
-
-result = add(3, 5)
-
-print(result) # Output: 8
+    def add(a, b):
+    
+    return a + b
+    
+      
+    
+    result = add(3, 5)
+    
+    print(result) # Output: 8
 
   
 
@@ -1741,15 +1741,15 @@ python
 
 Copy code
 
-def arithmetic_operations(a, b):
-
-return a + b, a - b, a * b, a / b
-
-  
-
-add, subtract, multiply, divide = arithmetic_operations(10, 2)
-
-print(f"Add: {add}, Subtract: {subtract}, Multiply: {multiply}, Divide: {divide}")
+    def arithmetic_operations(a, b):
+    
+    return a + b, a - b, a * b, a / b
+    
+      
+    
+    add, subtract, multiply, divide = arithmetic_operations(10, 2)
+    
+    print(f"Add: {add}, Subtract: {subtract}, Multiply: {multiply}, Divide: {divide}")
 
 # Output: Add: 12, Subtract: 8, Multiply: 20, Divide: 5.0
 
@@ -1772,31 +1772,32 @@ Example: Creating a Module
 Create a file named my_module.py with the following content:  
 python  
 Copy code  
-def greet(name):
 
-print(f"Hello, {name}!")
-
-  
-
-def add(a, b):
-
-return a + b
-
-1.    
+    def greet(name):
     
-
-Create another file named main.py and import my_module:  
-python  
-Copy code  
-import my_module
-
-  
-
-my_module.greet("Alice") # Output: Hello, Alice!
-
-result = my_module.add(3, 5)
-
-print(result) # Output: 8
+    print(f"Hello, {name}!")
+    
+      
+    
+    def add(a, b):
+    
+    return a + b
+    
+    1.    
+        
+    
+    Create another file named main.py and import my_module:  
+    python  
+    Copy code  
+    import my_module
+    
+      
+    
+    my_module.greet("Alice") # Output: Hello, Alice!
+    
+    result = my_module.add(3, 5)
+    
+    print(result) # Output: 8
 
 2.    
     
@@ -1813,15 +1814,15 @@ python
 
 Copy code
 
-import math
-
-  
-
-number = 16
-
-square_root = math.sqrt(number)
-
-print(f"The square root of {number} is {square_root}") # Output: The square root of 16 is 4.0
+    import math
+    
+      
+    
+    number = 16
+    
+    square_root = math.sqrt(number)
+    
+    print(f"The square root of {number} is {square_root}") # Output: The square root of 16 is 4.0
 
   
 
@@ -1833,15 +1834,15 @@ python
 
 Copy code
 
-import random
-
-  
-
-random_number = random.randint(1, 100)
-
-print(f"Random number between 1 and 100: {random_number}")
-
-  
+    import random
+    
+      
+    
+    random_number = random.randint(1, 100)
+    
+    print(f"Random number between 1 and 100: {random_number}")
+    
+      
 
 Explanation: This example imports the built-in random module and uses its randint function to generate a random number between 1 and 100.
 
@@ -1870,33 +1871,33 @@ Copy code
 
   
 
-def add(x, y):
-
-return x + y
-
-  
-
-def subtract(x, y):
-
-return x - y
-
-  
-
-def multiply(x, y):
-
-return x * y
-
-  
-
-def divide(x, y):
-
-if y != 0:
-
-return x / y
-
-else:
-
-return "Error! Division by zero."
+    def add(x, y):
+    
+    return x + y
+    
+      
+    
+    def subtract(x, y):
+    
+    return x - y
+    
+      
+    
+    def multiply(x, y):
+    
+    return x * y
+    
+      
+    
+    def divide(x, y):
+    
+    if y != 0:
+    
+    return x / y
+    
+    else:
+    
+    return "Error! Division by zero."
 
   
 
@@ -1904,59 +1905,59 @@ return "Error! Division by zero."
 
   
 
-while True:
-
-print("\nSelect operation:")
-
-print("1. Add")
-
-print("2. Subtract")
-
-print("3. Multiply")
-
-print("4. Divide")
-
-print("5. Quit")
-
-  
-
-choice = input("Enter choice(1/2/3/4/5): ")
-
-  
-
-if choice == '5':
-
-break
-
-  
-
-if choice in ['1', '2', '3', '4']:
-
-num1 = float(input("Enter first number: "))
-
-num2 = float(input("Enter second number: "))
-
-  
-
-if choice == '1':
-
-print(f"The result is: {add(num1, num2)}")
-
-elif choice == '2':
-
-print(f"The result is: {subtract(num1, num2)}")
-
-elif choice == '3':
-
-print(f"The result is: {multiply(num1, num2)}")
-
-elif choice == '4':
-
-print(f"The result is: {divide(num1, num2)}")
-
-else:
-
-print("Invalid input")
+    while True:
+    
+    print("\nSelect operation:")
+    
+    print("1. Add")
+    
+    print("2. Subtract")
+    
+    print("3. Multiply")
+    
+    print("4. Divide")
+    
+    print("5. Quit")
+    
+      
+    
+    choice = input("Enter choice(1/2/3/4/5): ")
+    
+      
+    
+    if choice == '5':
+    
+    break
+    
+      
+    
+    if choice in ['1', '2', '3', '4']:
+    
+    num1 = float(input("Enter first number: "))
+    
+    num2 = float(input("Enter second number: "))
+    
+      
+    
+    if choice == '1':
+    
+    print(f"The result is: {add(num1, num2)}")
+    
+    elif choice == '2':
+    
+    print(f"The result is: {subtract(num1, num2)}")
+    
+    elif choice == '3':
+    
+    print(f"The result is: {multiply(num1, num2)}")
+    
+    elif choice == '4':
+    
+    print(f"The result is: {divide(num1, num2)}")
+    
+    else:
+    
+    print("Invalid input")
 
   
 
@@ -3084,3 +3085,22 @@ Feel free to ask any questions you might have or discuss any issues you faced du
   
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
