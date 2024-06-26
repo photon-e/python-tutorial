@@ -15,26 +15,6 @@ Basic input/output operations.
 
 Basic arithmetic operations.
 
-  
-  
-
-Day 3: Functions and Modules
-
-  
-
-Lessons:
-
-Defining and calling functions.
-
-Function arguments and return values.
-
-Introduction to modules and importing them.
-
-Using built-in modules (like math and random).
-
-Project: Basic Calculator with Functions
-
-Refactor the simple calculator project to use functions for each operation.
 
   
   
@@ -60,6 +40,25 @@ Create a number guessing game where the user has to guess a randomly generated n
 Project: Simple Calculator
 
 Create a simple calculator that can perform basic arithmetic operations (addition, subtraction, multiplication, and division) based on user input.
+
+
+Day 3: Functions and Modules
+
+  
+
+Lessons:
+
+Defining and calling functions.
+
+Function arguments and return values.
+
+Introduction to modules and importing them.
+
+Using built-in modules (like math and random).
+
+Project: Basic Calculator with Functions
+
+Refactor the simple calculator project to use functions for each operation.
 
   
 
